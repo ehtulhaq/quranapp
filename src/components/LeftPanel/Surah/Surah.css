@@ -1,7 +1,21 @@
-.Surah {
-    margin-top: 20px;
-}
 .Surah .surahName {
-  font-family: "Lateef";
-  font-size: 25px;
+	font-family: "Roboto";
+	font-size: 18px;
+}
+
+.loader {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 999;
+	top: 50%;
+	left: 50%;
+	margin-left: -25px;
+}
+
+.Surah {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
 }

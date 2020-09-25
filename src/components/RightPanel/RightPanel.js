@@ -5,6 +5,7 @@ import Player from "./Player/Player";
 import { connect } from "react-redux";
 import { fetchSearchResults } from "../../scripts/searchResults";
 import SearchResults from "./SearchResults/SearchResults";
+import "./RightPanel.css"
 
 class RightPanel extends Component {
   constructor(props) {
@@ -48,10 +49,9 @@ class RightPanel extends Component {
         />
       );
     return (
-      <div className="m-2 p-3">
-        <Top />
+      <div className="RightPanel">
+        {/* <Top /> */}
         <TextDisplay />
-        <Player />
       </div>
     );
   }

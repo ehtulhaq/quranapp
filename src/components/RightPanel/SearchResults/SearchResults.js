@@ -10,12 +10,12 @@ class SearchResults extends Component {
   }
   styles = {
     mainDiv: {
-      height: window.innerHeight - 100 + "px",
+      height: window.outerHeight,
       direction: "rtl"
     }
   };
   render() {
-    if (!this.props.results) return <ReactLoading type="cylon" color="green" />;
+    if (!this.props.results) return <ReactLoading color="black" type="spin" className="loader" height={50} width={50}/>;
     console.log(this.props.results);
     return (
       <div className="SearchResults">

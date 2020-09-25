@@ -55,7 +55,7 @@ class Translations extends Component {
 
   render() {
     if (!this.props.translationList.translationList)
-      return <ReactLoading color="green" type="spinningBubbles" />;
+      return <ReactLoading color="black" type="spin" className="loader" height={50} width={50}/>;
 
     if (this.props.translation.translation !== null) {
       var selectedTranslation = this.props.translationList.translationList.find(

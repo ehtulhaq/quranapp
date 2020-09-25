@@ -1,7 +1,9 @@
 .LeftPanel .tabPanel {
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 .LeftPanel .editions {
-  margin-top: 50px;
+	margin-top: 20px;
+}
+
+.LeftPanel {
+	width: 100%;
 }
