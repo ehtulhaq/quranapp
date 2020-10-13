@@ -10,7 +10,7 @@ export const fetchSurah = async (props, nextProps) => {
     verseRange = nextProps.verseRange.verseRange;
   }
 
-  let urlForSurah = "http://api.alquran.cloud/surah/" + surah + "/" + edition;
+  let urlForSurah = "https://api.alquran.cloud/surah/" + surah + "/" + edition;
 
   console.log("verseRange in Surah", verseRange);
 

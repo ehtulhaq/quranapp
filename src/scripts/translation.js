@@ -11,7 +11,7 @@ export const fetchTranslation = async (props, nextProps) => {
   if (translation === null) return null;
 
   let urlForTranslation =
-    "http://api.alquran.cloud/surah/" + surah + "/" + translation;
+    "https://api.alquran.cloud/surah/" + surah + "/" + translation;
 
   if (verseRange[0] !== 0 && verseRange[1] !== 0) {
     let offset = "?offset=".concat(verseRange[0] - 1);

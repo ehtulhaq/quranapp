@@ -28,7 +28,7 @@ class App extends Component {
 		return (
 			<div className="row" style={this.styles}>
 				<link
-					href="http://fonts.googleapis.com/css?family=Roboto"
+					href="https://fonts.googleapis.com/css?family=Roboto"
 					rel="stylesheet"
 					type="text/css"
 				/>

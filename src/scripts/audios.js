@@ -8,7 +8,7 @@ export const fetchAudios = async (props, nextProps) => {
     verseRange = nextProps.verseRange.verseRange;
   }
 
-  let urlForAudio = "http://api.alquran.cloud/surah/" + surah + "/" + audio;
+  let urlForAudio = "https://api.alquran.cloud/surah/" + surah + "/" + audio;
 
   if (verseRange[0] !== 0 && verseRange[1] !== 0) {
     let offset = "?offset=".concat(verseRange[0] - 1);
